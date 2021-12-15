@@ -23,7 +23,7 @@ function App() {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={statisticData} />
-      <FriendList props={friendsData} />
+      <FriendList friends={friendsData} />
       <TransactionHistory items={transactions} />;
     </div>
   );
